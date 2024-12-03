@@ -7,6 +7,7 @@ import Header from "./Header";
 import Features from "./Features";
 import FAQ from "./FAQ";
 import Footer from "./Footer";
+import FloatingEmojis from "../FloatingEmojis";
 
 interface Props {
   className?: string;
@@ -19,6 +20,7 @@ export const Frame1: FC<Props> = memo(function Frame1(props = {}) {
       <Features />
       <FAQ />
       <Footer />
+      <FloatingEmojis />
     </div>
   );
 });

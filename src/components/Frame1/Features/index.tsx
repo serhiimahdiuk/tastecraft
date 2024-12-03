@@ -4,12 +4,12 @@ import classes from "../Frame1.module.css";
 
 export default () => {
   return (
-    <div className={classes.feature_5}>
+    <div id="features" className={`${classes.feature_5} `}>
       <div className={classes.title}>
-        <div className={classes.createSomethingAwe}>
+        <div className={`${classes.createSomethingAwe} backdrop-blur-sm`}>
           Cook Smarter with AI Recipes
         </div>
-        <div className={classes.weHaveCreatedANe2}>
+        <div className={`${classes.weHaveCreatedANe2} backdrop-blur-sm`}>
           Discover easy-to-follow, personalized recipes designed just for you.
           Let TasteCraft be your AI companion in the kitchen, making cooking fun
           and effortless.

@@ -3,7 +3,7 @@ import classes from "../Frame1.module.css";
 
 export default () => {
   return (
-    <div className={classes.content_19}>
+    <div id="faq" className={`${classes.content_19} backdrop-blur-sm`}>
       <div className={classes.paragraph}>
         <div className={classes.yourQuestionsAnswe}>
           Your questions answered
@@ -49,7 +49,6 @@ export default () => {
           How does personalized recipe suggestion work?
         </div>
         <div className={classes.theGeneratorAppIs2}>
-          {" "}
           Yes, TasteCraft offers a Free version that provides access to all core
           features, but it includes ads and a banner. You can make one request
           every 3 hours, but each request requires viewing an ad.

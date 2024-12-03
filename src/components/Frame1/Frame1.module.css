@@ -34,8 +34,8 @@
   color: #15143966;
   font-size: 16px;
   line-height: 26px;
-  font-family: DM Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: DM Sans, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   position: absolute;
   left: 17.027%;
   right: 16.2162%;
@@ -51,8 +51,8 @@
   font-size: 14px;
   line-height: 26px;
   font-weight: bold;
-  font-family: DM Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: DM Sans, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   letter-spacing: 2px;
   text-transform: uppercase;
   position: absolute;
@@ -66,14 +66,14 @@
   flex-direction: column;
 }
 .photo.photo {
-  background-image:/* webpackIgnore: true */ url('/assets/photo2.jpeg');
+  background-image:/* webpackIgnore: true */ url("/assets/photo2.jpeg");
 }
 .generateLeadsAndS2 {
   color: #15143966;
   font-size: 16px;
   line-height: 26px;
-  font-family: DM Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: DM Sans, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   position: absolute;
   left: 17.027%;
   right: 16.2162%;
@@ -89,8 +89,8 @@
   font-size: 14px;
   line-height: 26px;
   font-weight: bold;
-  font-family: DM Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: DM Sans, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   letter-spacing: 2px;
   text-transform: uppercase;
   position: absolute;
@@ -104,14 +104,14 @@
   flex-direction: column;
 }
 .photo2.photo2 {
-  background-image:/* webpackIgnore: true */ url('/assets/photo3.jpeg');
+  background-image:/* webpackIgnore: true */ url("/assets/photo3.jpeg");
 }
 .generateLeadsAndS3 {
   color: #15143966;
   font-size: 16px;
   line-height: 26px;
-  font-family: DM Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: DM Sans, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   position: absolute;
   left: 17.027%;
   right: 16.2162%;
@@ -127,8 +127,8 @@
   font-size: 14px;
   line-height: 26px;
   font-weight: bold;
-  font-family: DM Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: DM Sans, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   letter-spacing: 2px;
   text-transform: uppercase;
   position: absolute;
@@ -142,7 +142,7 @@
   flex-direction: column;
 }
 .photo3.photo3 {
-  background-image:/* webpackIgnore: true */ url('/assets/photo4.jpeg');
+  background-image:/* webpackIgnore: true */ url("/assets/photo4.jpeg");
 }
 .appStore2.appStore2 {
   width: 223px;
@@ -192,7 +192,6 @@
   align-content: center;
   gap: 0 62px;
   padding: 46px 21px;
-  background-color: #fff;
   overflow: hidden;
 }
 .headerMenu {
@@ -205,7 +204,7 @@
 .logo1 {
   width: 155px;
   height: 33px;
-  background-image:/* webpackIgnore: true */ url('/assets/logo1.png');
+  background-image:/* webpackIgnore: true */ url("/assets/logo1.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -221,8 +220,8 @@
   font-size: 18px;
   line-height: 26px;
   font-weight: 500;
-  font-family: DM Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: DM Sans, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: min-content;
   height: min-content;
   white-space: nowrap;
@@ -233,8 +232,8 @@
   font-size: 18px;
   line-height: 26px;
   font-weight: 500;
-  font-family: DM Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: DM Sans, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: min-content;
   height: min-content;
   white-space: nowrap;
@@ -245,8 +244,8 @@
   font-size: 18px;
   line-height: 26px;
   font-weight: 500;
-  font-family: DM Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: DM Sans, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: min-content;
   height: min-content;
   white-space: nowrap;
@@ -257,8 +256,8 @@
   font-size: 18px;
   line-height: 26px;
   font-weight: 500;
-  font-family: DM Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: DM Sans, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: min-content;
   height: min-content;
   white-space: nowrap;
@@ -274,8 +273,8 @@
 .faTwitter {
   color: #15143966;
   font-size: 18px;
-  font-family: FontAwesome, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: FontAwesome, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: min-content;
   height: min-content;
   white-space: nowrap;
@@ -284,8 +283,8 @@
 .faFacebookSquare {
   color: #15143966;
   font-size: 18px;
-  font-family: FontAwesome, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: FontAwesome, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: min-content;
   height: min-content;
   white-space: nowrap;
@@ -294,8 +293,8 @@
 .faGooglePlus {
   color: #15143966;
   font-size: 18px;
-  font-family: FontAwesome, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: FontAwesome, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: min-content;
   height: min-content;
   white-space: nowrap;
@@ -328,11 +327,10 @@
   font-size: 58px;
   line-height: 70px;
   font-weight: bold;
-  font-family: DM Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: DM Sans, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   letter-spacing: -1px;
   width: 478px;
-  height: 155.0336px;
   text-align: center;
   align-items: center;
   flex-direction: column;
@@ -342,8 +340,8 @@
   font-size: 22px;
   line-height: 32px;
   font-weight: 500;
-  font-family: DM Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: DM Sans, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 478px;
   height: 121.8121px;
   text-align: center;
@@ -356,7 +354,6 @@
   justify-content: center;
   align-items: center;
   gap: 32px;
-  overflow: hidden;
 }
 .iPhones {
   position: relative;
@@ -369,7 +366,7 @@
   right: 0%;
   top: 84.2451%;
   bottom: 2.8655%;
-  background-image:/* webpackIgnore: true */ url('/assets/shadow.png');
+  background-image:/* webpackIgnore: true */ url("/assets/shadow.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -382,7 +379,7 @@
   bottom: 9.8155%;
   width: 281px;
   height: 577px;
-  background-image:/* webpackIgnore: true */ url('/assets/hero2.png');
+  background-image:/* webpackIgnore: true */ url("/assets/hero2.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -393,7 +390,7 @@
   right: 30.5076%;
   top: 87.9077%;
   bottom: 0%;
-  background-image:/* webpackIgnore: true */ url('/assets/shadow2.png');
+  background-image:/* webpackIgnore: true */ url("/assets/shadow2.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -406,7 +403,7 @@
   bottom: 6.377%;
   width: 261px;
   height: 549px;
-  background-image:/* webpackIgnore: true */ url('/assets/hero1.png');
+  background-image:/* webpackIgnore: true */ url("/assets/hero1.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -418,7 +415,6 @@
   align-items: center;
   gap: 53px;
   padding: 50px 127px;
-  background-color: #fff;
   overflow: hidden;
 }
 .title {
@@ -431,8 +427,8 @@
   font-size: 42px;
   line-height: 52px;
   font-weight: bold;
-  font-family: DM Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: DM Sans, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   letter-spacing: -0.4px;
   position: absolute;
   left: 12.5172%;
@@ -451,8 +447,8 @@
   font-size: 22px;
   line-height: 32px;
   font-weight: 500;
-  font-family: DM Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: DM Sans, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   position: absolute;
   left: 0;
   right: 0;
@@ -477,7 +473,6 @@
   align-items: center;
   gap: 50px;
   padding: 100px 215px;
-  background-color: #fff;
   overflow: hidden;
 }
 .paragraph {
@@ -490,8 +485,8 @@
   font-size: 42px;
   line-height: 52px;
   font-weight: bold;
-  font-family: DM Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: DM Sans, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   letter-spacing: -0.4px;
   position: absolute;
   left: 0;
@@ -512,8 +507,8 @@
   color: #15143966;
   font-size: 16px;
   line-height: 26px;
-  font-family: DM Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: DM Sans, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   position: absolute;
   left: 51.4964%;
   right: 0;
@@ -527,8 +522,8 @@
   font-size: 18px;
   line-height: 28px;
   font-weight: 500;
-  font-family: DM Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: DM Sans, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   position: absolute;
   left: 51.4964%;
   right: 0;
@@ -541,8 +536,8 @@
   color: #15143966;
   font-size: 16px;
   line-height: 26px;
-  font-family: DM Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: DM Sans, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   position: absolute;
   left: 0;
   right: 51.4964%;
@@ -556,8 +551,8 @@
   font-size: 18px;
   line-height: 28px;
   font-weight: 500;
-  font-family: DM Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: DM Sans, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   position: absolute;
   left: 0;
   right: 51.4964%;
@@ -570,8 +565,8 @@
   color: #15143966;
   font-size: 16px;
   line-height: 26px;
-  font-family: DM Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: DM Sans, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   position: absolute;
   left: 51.4964%;
   right: 0;
@@ -585,8 +580,8 @@
   font-size: 18px;
   line-height: 28px;
   font-weight: 500;
-  font-family: DM Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: DM Sans, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   position: absolute;
   left: 51.4964%;
   right: 0;
@@ -599,8 +594,8 @@
   color: #15143966;
   font-size: 16px;
   line-height: 26px;
-  font-family: DM Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: DM Sans, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   position: absolute;
   left: 0;
   right: 51.4964%;
@@ -614,8 +609,8 @@
   font-size: 18px;
   line-height: 28px;
   font-weight: 500;
-  font-family: DM Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: DM Sans, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   position: absolute;
   left: 0;
   right: 51.4964%;
@@ -628,8 +623,8 @@
   color: #15143966;
   font-size: 16px;
   line-height: 26px;
-  font-family: DM Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: DM Sans, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   position: absolute;
   left: 51.4964%;
   right: 0;
@@ -643,8 +638,8 @@
   font-size: 18px;
   line-height: 28px;
   font-weight: 500;
-  font-family: DM Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: DM Sans, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   position: absolute;
   left: 51.4964%;
   right: 0;
@@ -657,8 +652,8 @@
   color: #15143966;
   font-size: 16px;
   line-height: 26px;
-  font-family: DM Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: DM Sans, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   position: absolute;
   left: 0;
   right: 51.4964%;
@@ -672,8 +667,8 @@
   font-size: 18px;
   line-height: 28px;
   font-weight: 500;
-  font-family: DM Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: DM Sans, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   position: absolute;
   left: 0;
   right: 51.4964%;
@@ -690,7 +685,6 @@
   align-content: flex-start;
   gap: 25px 122px;
   padding: 53px 115px;
-  background-color: #fff;
   overflow: hidden;
 }
 .frame1 {
@@ -709,7 +703,7 @@
 .logo12 {
   width: 155px;
   height: 33px;
-  background-image:/* webpackIgnore: true */ url('/assets/logo12.png');
+  background-image:/* webpackIgnore: true */ url("/assets/logo12.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -718,8 +712,8 @@
   color: #1e0e62;
   font-size: 16px;
   line-height: 26px;
-  font-family: DM Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: DM Sans, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: min-content;
   height: min-content;
   white-space: nowrap;
@@ -745,8 +739,8 @@
   color: #15143966;
   font-size: 16px;
   line-height: 26px;
-  font-family: DM Sans, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
+  font-family: DM Sans, system-ui, -apple-system, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   width: 969px;
   height: min-content;
   flex-direction: column;

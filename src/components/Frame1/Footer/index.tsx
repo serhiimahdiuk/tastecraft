@@ -5,7 +5,7 @@ import { DividerIcon } from "../DividerIcon";
 
 export default () => {
   return (
-    <div className={classes.footer_4}>
+    <div id="footer" className={`${classes.footer_4} `}>
       <div className={classes.frame1}>
         <div className={classes.copyright}>
           <div className={classes.logo12}></div>
