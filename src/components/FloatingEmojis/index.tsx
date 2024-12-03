@@ -14,7 +14,7 @@ interface FloatingEmojisProps {
 }
 
 const FloatingEmojis: React.FC<FloatingEmojisProps> = ({
-  numberOfParticles = window.innerWidth / 35,
+  numberOfParticles = window.innerWidth / 40,
 }) => {
   console.log("numberOfParticles", numberOfParticles);
   const emojis = ["🍔", "🍕", "🍣", "🥗", "🍜", "🌮", "🍩", "🍪"];

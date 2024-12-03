@@ -31,7 +31,7 @@
   height: 100%;
 }
 .generateLeadsAndS {
-  color: #15143966;
+  color: #151439;
   font-size: 16px;
   line-height: 26px;
   font-family: DM Sans, system-ui, -apple-system, "Segoe UI", Roboto,
@@ -69,7 +69,7 @@
   background-image:/* webpackIgnore: true */ url("/assets/photo2.jpeg");
 }
 .generateLeadsAndS2 {
-  color: #15143966;
+  color: #151439;
   font-size: 16px;
   line-height: 26px;
   font-family: DM Sans, system-ui, -apple-system, "Segoe UI", Roboto,
@@ -107,7 +107,7 @@
   background-image:/* webpackIgnore: true */ url("/assets/photo3.jpeg");
 }
 .generateLeadsAndS3 {
-  color: #15143966;
+  color: #151439;
   font-size: 16px;
   line-height: 26px;
   font-family: DM Sans, system-ui, -apple-system, "Segoe UI", Roboto,
@@ -215,7 +215,7 @@
   gap: 34px;
 }
 .features {
-  color: #15143966;
+  color: #151439;
   font-size: 18px;
   line-height: 26px;
   font-weight: 500;
@@ -227,7 +227,7 @@
   flex-direction: column;
 }
 .downloads {
-  color: #15143966;
+  color: #151439;
   font-size: 18px;
   line-height: 26px;
   font-weight: 500;
@@ -239,7 +239,7 @@
   flex-direction: column;
 }
 .docs {
-  color: #15143966;
+  color: #151439;
   font-size: 18px;
   line-height: 26px;
   font-weight: 500;
@@ -251,7 +251,7 @@
   flex-direction: column;
 }
 .blog {
-  color: #15143966;
+  color: #151439;
   font-size: 18px;
   line-height: 26px;
   font-weight: 500;
@@ -270,7 +270,7 @@
   gap: 35px;
 }
 .faTwitter {
-  color: #15143966;
+  color: #151439;
   font-size: 18px;
   font-family: FontAwesome, system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
@@ -280,7 +280,7 @@
   flex-direction: column;
 }
 .faFacebookSquare {
-  color: #15143966;
+  color: #151439;
   font-size: 18px;
   font-family: FontAwesome, system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
@@ -290,7 +290,7 @@
   flex-direction: column;
 }
 .faGooglePlus {
-  color: #15143966;
+  color: #15143990;
   font-size: 18px;
   font-family: FontAwesome, system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
@@ -306,7 +306,6 @@
   align-items: center;
 }
 .frame2 {
-  width: min-content;
   height: 550.8456px;
   flex-direction: column;
   justify-content: center;
@@ -314,12 +313,12 @@
 }
 .text {
   height: min-content;
-  align-self: stretch;
+  /* align-self: stretch; */
   flex-direction: column;
   align-items: flex-start;
   gap: 20px;
   padding: 17px 0;
-  overflow: hidden;
+  /* overflow: hidden; */
 }
 .simpleAndBeautiful {
   color: #1e0e62;
@@ -335,7 +334,7 @@
   flex-direction: column;
 }
 .weHaveCreatedANe {
-  color: #15143966;
+  color: #151439;
   font-size: 22px;
   line-height: 32px;
   font-weight: 500;
@@ -412,13 +411,14 @@
   flex-direction: column;
   align-items: center;
   gap: 53px;
-  padding: 50px 127px;
-  overflow: hidden;
 }
 .title {
-  position: relative;
-  width: 727px;
+  max-width: 727px;
   height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .createSomethingAwe {
   color: #1e0e62;
@@ -428,31 +428,27 @@
   font-family: DM Sans, system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   letter-spacing: -0.4px;
-  position: absolute;
-  left: 12.5172%;
-  right: 12.5172%;
-  top: 0;
-  bottom: 71.1111%;
-  width: min-content;
-  height: min-content;
+  /* position: absolute; */
+  /* left: 12.5172%;
+  right: 12.5172%; */
+  /* top: 0; */
+  /* bottom: 71.1111%; */
+
+
   text-align: center;
   align-items: center;
-  white-space: nowrap;
+
   flex-direction: column;
 }
 .weHaveCreatedANe2 {
-  color: #15143966;
+  color: #151439;
   font-size: 22px;
   line-height: 32px;
   font-weight: 500;
   font-family: DM Sans, system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 46.6667%;
-  bottom: 0;
-  height: min-content;
+
+
   text-align: center;
   align-items: center;
   flex-direction: column;
@@ -502,7 +498,7 @@
   height: 558px;
 }
 .yesWeArePlease {
-  color: #15143966;
+  color: #151439;
   font-size: 16px;
   line-height: 26px;
   font-family: DM Sans, system-ui, -apple-system, "Segoe UI", Roboto,
@@ -531,7 +527,7 @@
   flex-direction: column;
 }
 .theGeneratorAppIs {
-  color: #15143966;
+  color: #151439;
   font-size: 16px;
   line-height: 26px;
   font-family: DM Sans, system-ui, -apple-system, "Segoe UI", Roboto,
@@ -560,7 +556,7 @@
   flex-direction: column;
 }
 .weAreHereIsThe {
-  color: #15143966;
+  color: #151439;
   font-size: 16px;
   line-height: 26px;
   font-family: DM Sans, system-ui, -apple-system, "Segoe UI", Roboto,
@@ -589,7 +585,7 @@
   flex-direction: column;
 }
 .youReBuyingAnAcc {
-  color: #15143966;
+  color: #151439;
   font-size: 16px;
   line-height: 26px;
   font-family: DM Sans, system-ui, -apple-system, "Segoe UI", Roboto,
@@ -618,7 +614,7 @@
   flex-direction: column;
 }
 .noHostingIsOnYo {
-  color: #15143966;
+  color: #151439;
   font-size: 16px;
   line-height: 26px;
   font-family: DM Sans, system-ui, -apple-system, "Segoe UI", Roboto,
@@ -647,7 +643,7 @@
   flex-direction: column;
 }
 .theGeneratorAppIs2 {
-  color: #15143966;
+  color: #151439;
   font-size: 16px;
   line-height: 26px;
   font-family: DM Sans, system-ui, -apple-system, "Segoe UI", Roboto,
@@ -734,7 +730,7 @@
   height: 100%;
 }
 .discoverTheJoyOfCookingWithAI {
-  color: #15143966;
+  color: #151439;
   font-size: 16px;
   line-height: 26px;
   font-family: DM Sans, system-ui, -apple-system, "Segoe UI", Roboto,
