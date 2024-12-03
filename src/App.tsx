@@ -11,7 +11,10 @@ interface Props {
 }
 export const App: FC<Props> = memo(function App(props = {}) {
   return (
-    <div className={`${resets.clapyResets} ${classes.root}`}>
+    <div
+      id="outer-container"
+      className={`${resets.clapyResets} ${classes.root}`}
+    >
       <Frame1 />
     </div>
   );

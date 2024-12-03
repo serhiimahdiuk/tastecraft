@@ -15,7 +15,7 @@ interface Props {
 
 export const Frame1: FC<Props> = memo(function Frame1(props = {}) {
   return (
-    <div className={`${resets.clapyResets} ${classes.root}`}>
+    <div id="page-wrap" className={`${resets.clapyResets} ${classes.root}`}>
       <Header />
       <Features />
       <FAQ />

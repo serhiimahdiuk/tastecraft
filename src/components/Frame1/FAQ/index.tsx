@@ -51,7 +51,9 @@ export default () => {
             className={`flex flex-col w-full lg:w-1/2 lg:px-20 py-10`}
             key={i}
           >
-            <div className={classes.doYouProvideSuppo}>{q.question}</div>
+            <div className={`${classes.doYouProvideSuppo} pb-2`}>
+              {q.question}
+            </div>
             <div className={classes.yesWeArePlease}>{q.answer}</div>
           </div>
         ))}

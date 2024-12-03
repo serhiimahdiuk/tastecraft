@@ -590,27 +590,17 @@
   flex-direction: column;
 }
 .footer_4 {
-  height: min-content;
-  align-self: stretch;
-  flex-wrap: wrap;
-  align-items: flex-start;
-  align-content: flex-start;
-  gap: 25px 122px;
-  padding: 53px 115px;
-  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
 }
 .frame1 {
-  height: min-content;
-  flex: 1;
+  flex-direction: row;
   justify-content: space-between;
-  align-items: center;
-  gap: 122px;
+  
 }
 .copyright {
-  width: min-content;
-  height: min-content;
   align-items: center;
-  gap: 44px;
 }
 .logo12 {
   width: 155px;
@@ -639,7 +629,6 @@
   gap: 32px;
 }
 .divider {
-  width: 1170px;
   height: 2px;
   overflow: visible;
 }
@@ -653,7 +642,7 @@
   line-height: 26px;
   font-family: DM Sans, system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
-  width: 969px;
+  max-width: 969px;
   height: min-content;
   flex-direction: column;
 }
