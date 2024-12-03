@@ -428,16 +428,8 @@
   font-family: DM Sans, system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   letter-spacing: -0.4px;
-  /* position: absolute; */
-  /* left: 12.5172%;
-  right: 12.5172%; */
-  /* top: 0; */
-  /* bottom: 71.1111%; */
-
-
   text-align: center;
   align-items: center;
-
   flex-direction: column;
 }
 .weHaveCreatedANe2 {
@@ -447,8 +439,6 @@
   font-weight: 500;
   font-family: DM Sans, system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
-
-
   text-align: center;
   align-items: center;
   flex-direction: column;
@@ -461,17 +451,11 @@
   gap: 18px;
 }
 .content_19 {
-  height: min-content;
-  align-self: stretch;
   flex-direction: column;
   align-items: center;
   gap: 50px;
-  padding: 100px 215px;
-  overflow: hidden;
 }
 .paragraph {
-  position: relative;
-  width: 601px;
   height: 52px;
 }
 .yourQuestionsAnswe {
@@ -481,21 +465,14 @@
   font-weight: bold;
   font-family: DM Sans, system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
-  letter-spacing: -0.4px;
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  height: min-content;
   text-align: center;
   align-items: center;
   flex-direction: column;
 }
 .questions {
   position: relative;
-  width: 969px;
-  height: 558px;
+  min-height: 558px;
+
 }
 .yesWeArePlease {
   color: #151439;
@@ -503,27 +480,18 @@
   line-height: 26px;
   font-family: DM Sans, system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
-  position: absolute;
-  left: 51.4964%;
-  right: 0;
-  top: 90.681%;
-  bottom: 0;
-  height: min-content;
+
+
   flex-direction: column;
 }
 .doYouProvideSuppo {
+  width: 100%;
   color: #1e0e62;
   font-size: 18px;
   line-height: 28px;
   font-weight: 500;
   font-family: DM Sans, system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
-  position: absolute;
-  left: 51.4964%;
-  right: 0;
-  top: 83.871%;
-  bottom: 11.1111%;
-  height: min-content;
   flex-direction: column;
 }
 .theGeneratorAppIs {
@@ -532,12 +500,8 @@
   line-height: 26px;
   font-family: DM Sans, system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
-  position: absolute;
-  left: 0;
-  right: 51.4964%;
-  top: 90.681%;
-  bottom: 0;
-  height: min-content;
+
+
   flex-direction: column;
 }
 .howStartupFramewor {
@@ -547,12 +511,7 @@
   font-weight: 500;
   font-family: DM Sans, system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
-  position: absolute;
-  left: 0;
-  right: 51.4964%;
-  top: 83.871%;
-  bottom: 11.1111%;
-  height: min-content;
+
   flex-direction: column;
 }
 .weAreHereIsThe {
@@ -561,12 +520,7 @@
   line-height: 26px;
   font-family: DM Sans, system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
-  position: absolute;
-  left: 51.4964%;
-  right: 0;
-  top: 48.7455%;
-  bottom: 32.6165%;
-  height: min-content;
+
   flex-direction: column;
 }
 .areYouPlanningTo {
@@ -576,12 +530,6 @@
   font-weight: 500;
   font-family: DM Sans, system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
-  position: absolute;
-  left: 51.4964%;
-  right: 0;
-  top: 41.9355%;
-  bottom: 53.0466%;
-  height: min-content;
   flex-direction: column;
 }
 .youReBuyingAnAcc {
@@ -590,12 +538,7 @@
   line-height: 26px;
   font-family: DM Sans, system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
-  position: absolute;
-  left: 0;
-  right: 51.4964%;
-  top: 48.7455%;
-  bottom: 37.276%;
-  height: min-content;
+
   flex-direction: column;
 }
 .whatExactlyAmIBu {
@@ -605,12 +548,7 @@
   font-weight: 500;
   font-family: DM Sans, system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
-  position: absolute;
-  left: 0;
-  right: 51.4964%;
-  top: 41.9355%;
-  bottom: 53.0466%;
-  height: min-content;
+
   flex-direction: column;
 }
 .noHostingIsOnYo {
@@ -619,12 +557,7 @@
   line-height: 26px;
   font-family: DM Sans, system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
-  position: absolute;
-  left: 51.4964%;
-  right: 0;
-  top: 6.81%;
-  bottom: 79.2115%;
-  height: min-content;
+
   flex-direction: column;
 }
 .doYouProvideHosti {
@@ -634,12 +567,7 @@
   font-weight: 500;
   font-family: DM Sans, system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
-  position: absolute;
-  left: 51.4964%;
-  right: 0;
-  top: 0;
-  bottom: 94.9821%;
-  height: min-content;
+
   flex-direction: column;
 }
 .theGeneratorAppIs2 {
@@ -648,12 +576,7 @@
   line-height: 26px;
   font-family: DM Sans, system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
-  position: absolute;
-  left: 0;
-  right: 51.4964%;
-  top: 6.81%;
-  bottom: 74.552%;
-  height: min-content;
+
   flex-direction: column;
 }
 .howStartupFramewor2 {
@@ -663,12 +586,7 @@
   font-weight: 500;
   font-family: DM Sans, system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
-  position: absolute;
-  left: 0;
-  right: 51.4964%;
-  top: 0;
-  bottom: 94.9821%;
-  height: min-content;
+
   flex-direction: column;
 }
 .footer_4 {
