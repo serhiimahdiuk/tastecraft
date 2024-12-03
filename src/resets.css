@@ -42,7 +42,6 @@ body label {
 
 .floating-emoji {
   position: absolute;
-  font-size: 2rem;
   animation: floatUp linear infinite;
   animation-fill-mode: forwards;
 }

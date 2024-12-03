@@ -177,21 +177,20 @@
   height: 100%;
 }
 .root {
-  width: 1400px;
-  height: 3003px;
+  width: 100%;
+  max-width: 1440px;
   max-height: 100%;
   flex-direction: column;
   padding: 0 0 52px;
 }
 .header_4 {
-  height: 925px;
   align-self: stretch;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   align-content: center;
   gap: 0 62px;
-  padding: 46px 21px;
+  /* padding: 46px 21px; */
   overflow: hidden;
 }
 .headerMenu {
@@ -301,8 +300,8 @@
   flex-direction: column;
 }
 .frame3 {
-  width: 1174px;
-  height: 800px;
+  max-width: 1174px;
+  min-height: 800px;
   justify-content: space-between;
   align-items: center;
 }
@@ -330,7 +329,7 @@
   font-family: DM Sans, system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
   letter-spacing: -1px;
-  width: 478px;
+  max-width: 478px;
   text-align: center;
   align-items: center;
   flex-direction: column;
@@ -342,8 +341,7 @@
   font-weight: 500;
   font-family: DM Sans, system-ui, -apple-system, "Segoe UI", Roboto,
     "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif;
-  width: 478px;
-  height: 121.8121px;
+  max-width: 478px;
   text-align: center;
   align-items: center;
   flex-direction: column;

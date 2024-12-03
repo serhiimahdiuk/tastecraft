@@ -7,7 +7,7 @@ import classes from "../Frame1/Frame1.module.css";
 
 export default () => {
   return (
-    <div className={classes.download}>
+    <div className={`${classes.download} scale-[0.7] lg:scale-[1]`}>
       <AppStore_TypeDefault
         className={classes.appStore}
         classes={{ group: classes.group }}

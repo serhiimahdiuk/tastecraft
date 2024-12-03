@@ -6,6 +6,7 @@ interface EmojiStyle {
   top: string;
   animationDuration: string;
   delay: string;
+  fontSize: string;
 }
 
 interface FloatingEmojisProps {
@@ -27,6 +28,7 @@ const FloatingEmojis: React.FC<FloatingEmojisProps> = ({
         top: Math.random() * 100 + "vh", // Random value between 10vh and 90vh
         animationDuration: Math.random() * 5 + 10 + "s", // Random duration between 5s to 10s
         delay: Math.random() * 2 + "s", // Random delay between 0s and 5s
+        fontSize: Math.random() * 2 + 2 + "rem", // Random font size between 1rem and 3rem
       })
     );
     setEmojiStyles(newEmojiStyles);
@@ -44,6 +46,7 @@ const FloatingEmojis: React.FC<FloatingEmojisProps> = ({
             animationDuration: style.animationDuration,
             animationDelay: style.delay,
             opacity: 0, // Set initial opacity to 0
+            fontSize: style.fontSize,
           }}
         >
           {style.emoji}
