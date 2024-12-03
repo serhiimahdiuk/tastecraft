@@ -1,6 +1,7 @@
 {
   "name": "vite-react-ts",
   "private": true,
+  "homepage": "https://serhiimahdiuk.github.io/tastecraft/",
   "version": "0.0.0",
   "scripts": {
     "start": "vite",
