@@ -3,7 +3,7 @@ import type { FC } from "react";
 
 import classes from "./App.module.css";
 import resets from "./components/_resets.module.css";
-import { Frame1 } from "./components/Frame1/Frame1.js";
+import { Frame1 } from "./components/Frame1/index.js";
 
 interface Props {
   className?: string;
