@@ -1,6 +1,42 @@
 import React from "react";
 import classes from "../Frame1.module.css";
 
+const pattern = /\[email\]/g;
+
+function formatLink(url: string, props: any) {
+  if (!url) {
+    return "";
+  }
+
+  return (
+    <a
+      {...props}
+      href={"mailto:tastecraft.info@gmail.com"}
+      className={`text-[#1d4ed8]`}
+    >
+      tastecraft.info@gmail.com
+    </a>
+  );
+}
+
+function addLinks(text: string) {
+  const splitText = text.split(pattern);
+
+  if (splitText.length <= 1) {
+    return text;
+  }
+
+  const matches = text.match(pattern);
+
+  return splitText.reduce(
+    (arr, element, index) =>
+      matches?.[index]
+        ? [...arr, element, formatLink(matches[index], { key: index })]
+        : [...arr, element],
+    [] as any[]
+  );
+}
+
 const questions = [
   {
     question: "Can I use TasteCraft for free?",
@@ -20,12 +56,12 @@ const questions = [
   {
     question: "I am experiencing technical issues. What should I do?",
     answer:
-      "If you encounter any technical issues, visit the support section in the app or email us at [tastecraft.info@gmail.com].",
+      "If you encounter any technical issues, visit the support section in the app or email us at [email]",
   },
   {
     question: "How can I delete my account?",
     answer:
-      "If you wish to delete your account, go to account settings in the app or contact our support team.",
+      "If you wish to delete your account, go to account settings in the app or contact our support team [email]",
   },
   {
     question: "Does TasteCraft collect my data?",
@@ -54,7 +90,7 @@ export default () => {
             <div className={`${classes.doYouProvideSuppo} pb-2`}>
               {q.question}
             </div>
-            <div className={classes.yesWeArePlease}>{q.answer}</div>
+            <div className={classes.yesWeArePlease}>{addLinks(q.answer)}</div>
           </div>
         ))}
       </div>
