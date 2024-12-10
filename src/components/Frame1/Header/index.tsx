@@ -10,7 +10,7 @@ export default () => {
       <div
         className={`${classes.headerMenu} backdrop-blur-sm h-16 bg-[#00000010] w-full`}
       >
-        <NavLink to="/" end>
+        <NavLink to="#" end>
           <div className={classes.logo1}></div>
         </NavLink>
         <div className={`${classes.menu} hidden lg:flex`}>
@@ -20,7 +20,7 @@ export default () => {
           <AnchorLink href="#footer" className={classes.downloads}>
             Download
           </AnchorLink>
-          <NavLink to="/privacypolicy" end className={classes.docs}>
+          <NavLink to="privacy-policy" end className={classes.docs}>
             Privacy Policy
           </NavLink>
           <AnchorLink href="#faq" className={classes.blog}>

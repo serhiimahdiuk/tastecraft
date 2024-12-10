@@ -31,7 +31,7 @@ export const Frame1: FC<Props> = memo(function Frame1(props = {}) {
             </>
           }
         />
-        <Route path="/privacypolicy" element={<PrivacyPolicy />} />
+        <Route path="privacy-policy" element={<PrivacyPolicy />} />
       </Routes>
       <Footer />
       <FloatingEmojis />
