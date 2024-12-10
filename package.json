@@ -18,6 +18,8 @@
     "react-anchor-link-smooth-scroll": "^1.0.12",
     "react-device-detect": "^2.2.3",
     "react-dom": "^18.2.0",
+    "react-markdown": "^9.0.1",
+    "react-router": "^7.0.2",
     "swiper": "^11.1.15"
   },
   "devDependencies": {

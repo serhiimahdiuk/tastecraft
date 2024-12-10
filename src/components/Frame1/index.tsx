@@ -8,6 +8,9 @@ import Features from "./Features";
 import FAQ from "./FAQ";
 import Footer from "./Footer";
 import FloatingEmojis from "../FloatingEmojis";
+import { Route, Routes } from "react-router";
+import Hero from "./Header/Hero";
+import PrivacyPolicy from "../PrivacyPolicy";
 
 interface Props {
   className?: string;
@@ -17,8 +20,19 @@ export const Frame1: FC<Props> = memo(function Frame1(props = {}) {
   return (
     <div id="page-wrap" className={`${resets.clapyResets} ${classes.root}`}>
       <Header />
-      <Features />
-      <FAQ />
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <Hero />
+              <Features />
+              <FAQ />
+            </>
+          }
+        />
+        <Route path="/privacypolicy" element={<PrivacyPolicy />} />
+      </Routes>
       <Footer />
       <FloatingEmojis />
     </div>
